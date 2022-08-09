@@ -7,7 +7,7 @@ import machineReducer from './machines/machines.reducer';
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['machine']
+  whitelist: ['machines']
 };
 
 const rootReducer = combineReducers({
